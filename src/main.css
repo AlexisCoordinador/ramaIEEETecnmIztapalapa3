@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* font-family: "Helvetica Neue",Helvetica,Arial; */
+    font-family: monospace;
+}
+header {
+    /* background-color: #00629B;  IEEE COLOR*/
+    /* background-color: #20201F;  REALY GOOD */
+    /* background-color: #FEFEFE; */
+    /* border-bottom:1px solid #ccc; */
+    /* padding-bottom: 10px; */
+    display: flex;
+    align-items: center;
+    /* width: 95%; */
+    margin: auto;
+    height: 75px;
+    border-bottom: .5px solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+header section {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 17px;
+    color :#069;
+}
+
+header img {
+    /* border: 1px solid black; */
+    width: 200px;
+}
+/* section {
+    height: 900px;
+    width: 20px;
+    margin: 0px auto;
+    border-radius: 10px;
+    background-color: #181818;
+} */
+.tecnmITI3 {
+    width: 150px;
+}
+main {
+    display: flex;
+}
+main aside {
+    width: 400px;
+    border-right: 1px solid #ccc;
+    height: calc(100vh - 75px);
+}
+main section {
+    height: calc(100vh - 75px);
+    width: 100%;
+}
